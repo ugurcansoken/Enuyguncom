@@ -1,33 +1,30 @@
-## About this template
+## Enuygun.com Test Senaryosu
 
-This is a template to get started with a Gauge project that uses Selenium as the driver to interact with a web browser.
+### Ucak Bileti Sorgulama
 
-## Installing this template
+    1- Parametrik olacak şekilde nereden-nereye rotasının seçilmesi
 
-    gauge --install java_maven_selenium
+    2- Parametrik olacak şekilde ileri tarihli gidiş dönüş tarihinin seçilmesi
 
-## Building on top of this template
+    3-Aktarmasız uçuş seçiminin yapılması
 
-### Defining Specifications
+    4- İstediğin yolcu sayısının ve bilet sınıfının seçilebilmesi
 
-* This template includes a sample specification which opens up a browser and navigates to `Get Started` page of Gauge.
-* Add more specifications on top of sample specification.
+    5- Arama butonuna basılır ve bir sonraki sayfaya geçtiğinin kontrolü yapılır
 
-Read more about [Specifications](http://getgauge.io/documentation/user/current/specifications/README.html)
+- NOT:  Arama ekranındaki alanların dışardan istenilen rotaya, tarihe, yolcu sayısına ve uçak sınıfına göre seçilebiliyor olması gerekmektedir.
 
-### Writing the implementations
 
-This is where the java implementation of the steps would be implemented. Since this is a Selenium based project, the java implementation would invoke Selenium APIs as required.
+### Kullanılan Teknolojiler
 
-_We recommend considering modelling your tests using the [Page Object](https://github.com/SeleniumHQ/selenium/wiki/PageObjects) pattern, and the [Webdriver support](https://github.com/SeleniumHQ/selenium/wiki/PageFactory) for creating them._
+    Java - Page Object Model
 
-- Note that every Gauge step implementation is annotated with a `Step` attribute that takes the Step text pattern as a parameter.
-Read more about [Step implementations in Java](http://getgauge.io/documentation/user/current/test_code/java/java.html)
+    BDD-Gauge
 
-### Execution
+    Log4j
 
-* You can execute the specification as:
+    Selenium
 
-```
-mvn test
-```
+    Appium
+
+    BDD(Behavior Driven Development - Davranış Odaklı Geliştirme) ile Gauge frameworku kullanılarak spec dosyalarında okunabilir ve anlaşılabilir testler yazılmıştır.
