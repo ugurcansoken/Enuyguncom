@@ -25,6 +25,4 @@
 
     Selenium
 
-    Appium
-
     BDD(Behavior Driven Development - Davranış Odaklı Geliştirme) ile Gauge frameworku kullanılarak spec dosyalarında okunabilir ve anlaşılabilir testler yazılmıştır.
