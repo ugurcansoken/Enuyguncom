@@ -198,6 +198,7 @@ public class BaseSteps extends BaseTest {
 
             if (element.isDisplayed()) {
                 element.click();
+                logger.info("Gidis tarihi secildi");
                 break;
 
             } else {
@@ -213,12 +214,14 @@ public class BaseSteps extends BaseTest {
               WebElement element2 = driver.findElement(By.cssSelector("[aria-label='" + donusTarihi + "']"));
               if (element2.isDisplayed()){
                   element2.click();
-                  logger.info("ileri tusa basıldı");
+                  logger.info("Donus tarihi secildi");
                   break;
               }
               else
               {
                   elemeent.click();
+                  logger.info("Ileri tusuna basildi");
+
               }
           }
 
