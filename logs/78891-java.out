@@ -1,0 +1,188 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: A number (19) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 366milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 366"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 51638"}
+{"logLevel":"info","message":"Listening on port:51638"}
+2023-04-14 19:28:51 INFO  Reflections:219 scan - Reflections took 1580 ms to scan 72 urls, producing 9700 keys and 51390 values
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'step.BaseSteps.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Check if element {} exists else print message {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'step.BaseSteps.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Element {} var mı kontrol et yoksa hata mesajı ver {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.waitBySeconds' and 'step.BaseSteps.waitBySeconds'"}
+{"logLevel":"debug","message":"Found Wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.waitBySeconds' and 'step.BaseSteps.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.sendKeyToElementENTER' and 'step.BaseSteps.sendKeyToElementENTER'"}
+{"logLevel":"debug","message":"Found Send ENTER key to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.sendKeyToElementENTER' and 'step.BaseSteps.sendKeyToElementENTER'"}
+{"logLevel":"debug","message":"Found Elemente ENTER keyi yolla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkURLContainsRepeat' and 'step.BaseSteps.checkURLContainsRepeat'"}
+{"logLevel":"debug","message":"Found Check if current URL contains the value {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkURLContainsRepeat' and 'step.BaseSteps.checkURLContainsRepeat'"}
+{"logLevel":"debug","message":"Found Şu anki URL {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.clickToElementWithJavaScript' and 'step.BaseSteps.clickToElementWithJavaScript'"}
+{"logLevel":"debug","message":"Found {} elementine javascript ile tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.clickToElementWithJavaScript' and 'step.BaseSteps.clickToElementWithJavaScript'"}
+{"logLevel":"debug","message":"Found Click element {} with javascript in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.clickElement' and 'step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Click to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.clickElement' and 'step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.scrollToElementToBeVisible' and 'step.BaseSteps.scrollToElementToBeVisible'"}
+{"logLevel":"debug","message":"Found {} Elementine kadar kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.scrollToElementToBeVisible' and 'step.BaseSteps.scrollToElementToBeVisible'"}
+{"logLevel":"debug","message":"Found Scroll to Element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.hover' and 'step.BaseSteps.hover'"}
+{"logLevel":"debug","message":"Found {} elementin üstünde bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.hover' and 'step.BaseSteps.hover'"}
+{"logLevel":"debug","message":"Found Hold on element{} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.getElementWithKeyIfExists' and 'step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Check if element {} exists in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.getElementWithKeyIfExists' and 'step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Element var mı kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.ssendKeys' and 'step.BaseSteps.ssendKeys'"}
+{"logLevel":"debug","message":"Found Write value {} to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.ssendKeys' and 'step.BaseSteps.ssendKeys'"}
+{"logLevel":"debug","message":"Found {} textini {} elementine yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementContainsText' and 'step.BaseSteps.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if element {} contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementContainsText' and 'step.BaseSteps.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.waitByMilliSeconds' and 'step.BaseSteps.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found Wait {} milliseconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.waitByMilliSeconds' and 'step.BaseSteps.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found {} milisaniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementAttributeWithJs' and 'step.BaseSteps.checkElementAttributeWithJs'"}
+{"logLevel":"debug","message":"Found {} elementinin value degeri {} degerini iceriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementAttributeWithJs' and 'step.BaseSteps.checkElementAttributeWithJs'"}
+{"logLevel":"debug","message":"Found Check the value of the element {} contains {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementExistsThenClick' and 'step.BaseSteps.checkElementExistsThenClick'"}
+{"logLevel":"debug","message":"Found Wait for element then click {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementExistsThenClick' and 'step.BaseSteps.checkElementExistsThenClick'"}
+{"logLevel":"debug","message":"Found Elementi bekle ve sonra tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.goToUrl' and 'step.BaseSteps.goToUrl'"}
+{"logLevel":"debug","message":"Found Go to {} address in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.goToUrl' and 'step.BaseSteps.goToUrl'"}
+{"logLevel":"debug","message":"Found {} adresine git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementNotContainsText' and 'step.BaseSteps.checkElementNotContainsText'"}
+{"logLevel":"debug","message":"Found Check if element {} not contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementNotContainsText' and 'step.BaseSteps.checkElementNotContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içermiyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tWait {} milliseconds : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tClick element {} with javascript : public void clickToElementWithJavaScript(String key)"}
+{"logLevel":"debug","message":"\t{} adresine git : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tElement {} var mı kontrol et yoksa hata mesajı ver {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} elementin üstünde bekle : public void hover(String key)"}
+{"logLevel":"debug","message":"\tCheck if element {} exists else print message {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\tElement var mı kontrol et {} : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tSend ENTER key to element {} : public void sendKeyToElementENTER(String key)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySeconds(ınt seconds)"}
+{"logLevel":"debug","message":"\tWait for element then click {} : public void checkElementExistsThenClick(String key)"}
+{"logLevel":"debug","message":"\tHold on element{} : public void hover(String key)"}
+{"logLevel":"debug","message":"\tScroll to Element {} : public WebElement scrollToElementToBeVisible(String key)"}
+{"logLevel":"debug","message":"\tCheck if element {} not contains text {} : public void checkElementNotContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tGo to {} address : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\tWait {} seconds : public void waitBySeconds(ınt seconds)"}
+{"logLevel":"debug","message":"\tCheck if element {} exists : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tWrite value {} to element {} : public void ssendKeys(String text, String key)"}
+{"logLevel":"debug","message":"\tCheck if current URL contains the value {} : public void checkURLContainsRepeat(String expectedURL)"}
+{"logLevel":"debug","message":"\tCheck the value of the element {} contains {} : public void checkElementAttributeWithJs(String key, String expectedValue)"}
+{"logLevel":"debug","message":"\t{} elementine javascript ile tıkla : public void clickToElementWithJavaScript(String key)"}
+{"logLevel":"debug","message":"\tCheck if element {} contains text {} : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tElemente ENTER keyi yolla {} : public void sendKeyToElementENTER(String key)"}
+{"logLevel":"debug","message":"\tClick to element {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tElementi bekle ve sonra tıkla {} : public void checkElementExistsThenClick(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin value degeri {} degerini iceriyor mu kontrol et : public void checkElementAttributeWithJs(String key, String expectedValue)"}
+{"logLevel":"debug","message":"\t{} Elementine kadar kaydır : public WebElement scrollToElementToBeVisible(String key)"}
+{"logLevel":"debug","message":"\tŞu anki URL {} değerini içeriyor mu kontrol et : public void checkURLContainsRepeat(String expectedURL)"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içermiyor mu kontrol et : public void checkElementNotContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} textini {} elementine yaz : public void ssendKeys(String text, String key)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
+2023-04-14 19:28:52 INFO  Reflections:219 scan - Reflections took 660 ms to scan 72 urls, producing 9617 keys and 44125 values
+2023-04-14 19:28:53 INFO  BaseTest:58 setUp - ************************************  BeforeScenario  ************************************
+2023-04-14 19:28:53 INFO  BaseTest:61 setUp - Local cihazda mac ortaminda chrome browserinda test ayaga kalkacak
+Nis 14, 2023 7:28:53 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 29035
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 109
+Current browser version is 112.0.5615.49 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ugurcan-MacBook-Pro.local', ip: 'fe80:0:0:0:462:f64f:25ec:a41c%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '19.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000104bf0fa8 chromedriver + 4886440
+1   chromedriver                        0x0000000104b6e643 chromedriver + 4351555
+2   chromedriver                        0x00000001047bcb27 chromedriver + 477991
+3   chromedriver                        0x00000001047ee659 chromedriver + 681561
+4   chromedriver                        0x00000001047e93bb chromedriver + 660411
+5   chromedriver                        0x00000001047e5712 chromedriver + 644882
+6   chromedriver                        0x0000000104830bd7 chromedriver + 953303
+7   chromedriver                        0x00000001048273a3 chromedriver + 914339
+8   chromedriver                        0x00000001047f157f chromedriver + 693631
+9   chromedriver                        0x00000001047f2b1e chromedriver + 699166
+10  chromedriver                        0x0000000104bbdb9e chromedriver + 4676510
+11  chromedriver                        0x0000000104bc291e chromedriver + 4696350
+12  chromedriver                        0x0000000104bca19f chromedriver + 4727199
+13  chromedriver                        0x0000000104bc381a chromedriver + 4700186
+14  chromedriver                        0x0000000104b96a62 chromedriver + 4516450
+15  chromedriver                        0x0000000104be28c8 chromedriver + 4827336
+16  chromedriver                        0x0000000104be2a45 chromedriver + 4827717
+17  chromedriver                        0x0000000104bf87ef chromedriver + 4917231
+18  libsystem_pthread.dylib             0x00007ff81d3424f4 _pthread_start + 125
+19  libsystem_pthread.dylib             0x00007ff81d33e00f thread_start + 15
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1016)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at base.BaseTest.setUp(BaseTest.java:64)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30)
+	at com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:92)
+	at com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:78)
+	at com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:35)
+	at com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+	at com.thoughtworks.gauge.processor.ScenarioExecutionStartingProcessor.process(ScenarioExecutionStartingProcessor.java:24)
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$startScenarioExecution$5(RunnerServiceHandler.java:132)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+{"logLevel":"debug","message":"Executing '{} adresine git' using 'class step.BaseSteps.goToUrl"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

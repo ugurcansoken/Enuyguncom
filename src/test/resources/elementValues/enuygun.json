@@ -1,0 +1,68 @@
+[
+  {
+    "key": "ucakBiletiMenuButonu",
+    "value": "(//*[text()='Uçak Bileti'])[1]",
+    "type": "xpath"
+
+  },{
+    "key": "ucakBiletiAramaContainer",
+    "value": "FlightSearchFormWrapper",
+    "type": "id"
+
+  },{
+    "key": "neredenTextboxi",
+    "value": "#OriginInput",
+    "type": "css"
+
+  },{
+    "key": "nereyeTextboxi",
+    "value": "#DestinationInput",
+    "type": "css"
+
+  },{
+    "key": "tekYonBoxi",
+    "value": "#oneWayCheckbox",
+    "type": "css"
+
+  },{
+    "key": "gidisTarihiBoxi",
+    "value": "#DepartureDate",
+    "type": "css"
+
+  },{
+    "key": "donusTarihiBoxi",
+    "value": "#ReturnDate",
+    "type": "css"
+
+  },{
+    "key": "aktarmasizUcusCheckboxi",
+    "value": "transitFilter",
+    "type": "id"
+
+  },{
+    "key": "yolcuSayisiBoxi",
+    "value": "[data-testid='passengerSelectButtonMulti']",
+    "type": "css"
+
+  },{
+    "key": "biletAraButonu",
+    "value": "[aria-label='Submit Button']",
+    "type": "css"
+
+  },{
+    "key": "biletAramaKontrolu",
+    "value": "[data-testid='favorite-search-add-button']",
+    "type": "css"
+
+  },{
+    "key": "biletAramaListeKontrolu",
+    "value": "[class='flight-item__wrapper']",
+    "type": "css"
+
+  },{
+    "key": "ileritusu",
+    "value": "(//*[@class='DayPickerNavigation_button DayPickerNavigation_button_1 DayPickerNavigation_button__horizontal DayPickerNavigation_button__horizontal_2'])[2]",
+    "type": "xpath"
+
+  }
+]

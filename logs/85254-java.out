@@ -1,0 +1,80 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: A number (19) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 364milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 364"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 53535"}
+{"logLevel":"info","message":"Listening on port:53535"}
+2023-04-17 11:22:09 INFO  Reflections:219 scan - Reflections took 1581 ms to scan 72 urls, producing 9700 keys and 51387 values
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'step.BaseSteps.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Element {} var mı kontrol et yoksa hata mesajı ver {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.waitBySeconds' and 'step.BaseSteps.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.sendAndEnter' and 'step.BaseSteps.sendAndEnter'"}
+{"logLevel":"debug","message":"Found {} elementine {} yazilir ve enter gonderilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.ucakSinifi' and 'step.BaseSteps.ucakSinifi'"}
+{"logLevel":"debug","message":"Found Ucak sinifi {} olarak secilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkURLContainsRepeat' and 'step.BaseSteps.checkURLContainsRepeat'"}
+{"logLevel":"debug","message":"Found Şu anki URL {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.clickElement' and 'step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.ssendKeys' and 'step.BaseSteps.ssendKeys'"}
+{"logLevel":"debug","message":"Found {} textini {} elementine yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementContainsText' and 'step.BaseSteps.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.waitByMilliSeconds' and 'step.BaseSteps.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found {} milisaniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.donusTarihiii' and 'step.BaseSteps.donusTarihiii'"}
+{"logLevel":"debug","message":"Found {} donus tarihi {} secilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.goToUrl' and 'step.BaseSteps.goToUrl'"}
+{"logLevel":"debug","message":"Found {} adresine git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.gidisTarihhh' and 'step.BaseSteps.gidisTarihhh'"}
+{"logLevel":"debug","message":"Found {} gidis tarihi {} secilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.yolcuDetayi' and 'step.BaseSteps.yolcuDetayi'"}
+{"logLevel":"debug","message":"Found {} tane {} sinifi secilir in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} adresine git : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tUcak sinifi {} olarak secilir : public void ucakSinifi(String item)"}
+{"logLevel":"debug","message":"\t{} gidis tarihi {} secilir : public void gidisTarihhh(String key, String gidisTarihi)"}
+{"logLevel":"debug","message":"\tElement {} var mı kontrol et yoksa hata mesajı ver {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} tane {} sinifi secilir : public void yolcuDetayi(Integer kisiSayisi, String yolcuSinifi)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySeconds(ınt seconds)"}
+{"logLevel":"debug","message":"\tŞu anki URL {} değerini içeriyor mu kontrol et : public void checkURLContainsRepeat(String expectedURL)"}
+{"logLevel":"debug","message":"\t{} textini {} elementine yaz : public void ssendKeys(String text, String key)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} donus tarihi {} secilir : public void donusTarihiii(String key, String donusTarihi)"}
+{"logLevel":"debug","message":"\t{} elementine {} yazilir ve enter gonderilir : public void sendAndEnter(String key, String text)"}
+2023-04-17 11:22:10 INFO  Reflections:219 scan - Reflections took 588 ms to scan 72 urls, producing 9617 keys and 44125 values
+2023-04-17 11:22:10 INFO  BaseTest:58 setUp - ************************************  BeforeScenario  ************************************
+2023-04-17 11:22:10 INFO  BaseTest:61 setUp - Local cihazda mac ortaminda chrome browserinda test ayaga kalkacak
+Nis 17, 2023 11:22:10 ÖÖ org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 24861
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nis 17, 2023 11:22:19 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} adresine git' using 'class step.BaseSteps.goToUrl"}
+2023-04-17 11:22:28 INFO  BaseSteps:98 goToUrl - https://www.enuygun.com/ adresine gidiliyor.
+{"logLevel":"debug","message":"Executing 'Şu anki URL {} değerini içeriyor mu kontrol et' using 'class step.BaseSteps.checkURLContainsRepeat"}
+2023-04-17 11:22:28 INFO  BaseSteps:165 checkURLContainsRepeat - Şuanki URLhttps://www.enuygun.com/ değerini içeriyor.
+{"logLevel":"debug","message":"Executing 'Elementine tıkla {}' using 'class step.BaseSteps.clickElement"}
+2023-04-17 11:22:32 INFO  BaseSteps:144 clickElement - ucakBiletiMenuButonu elementine tıklandı.
+{"logLevel":"debug","message":"Executing 'Şu anki URL {} değerini içeriyor mu kontrol et' using 'class step.BaseSteps.checkURLContainsRepeat"}
+2023-04-17 11:22:32 INFO  BaseSteps:165 checkURLContainsRepeat - Şuanki URLhttps://www.enuygun.com/ucak-bileti/ değerini içeriyor.
+{"logLevel":"debug","message":"Executing '{} elementine {} yazilir ve enter gonderilir' using 'class step.BaseSteps.sendAndEnter"}
+{"logLevel":"debug","message":"Executing '{} elementine {} yazilir ve enter gonderilir' using 'class step.BaseSteps.sendAndEnter"}
+{"logLevel":"debug","message":"Executing 'Elementine tıkla {}' using 'class step.BaseSteps.clickElement"}
+2023-04-17 11:22:36 INFO  BaseSteps:144 clickElement - aktarmasizUcusCheckboxi elementine tıklandı.
+{"logLevel":"debug","message":"Executing 'Elementine tıkla {}' using 'class step.BaseSteps.clickElement"}
+2023-04-17 11:22:38 INFO  BaseSteps:144 clickElement - tekYonBoxi elementine tıklandı.
+{"logLevel":"debug","message":"Executing '{} gidis tarihi {} secilir' using 'class step.BaseSteps.gidisTarihhh"}
+{"logLevel":"debug","message":"Executing '{} donus tarihi {} secilir' using 'class step.BaseSteps.donusTarihiii"}
